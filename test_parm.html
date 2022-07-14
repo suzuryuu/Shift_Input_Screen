@@ -1,0 +1,72 @@
+<!-- パラメータ受け渡しテスト用のコードです -->
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>シフト入力画面</title>
+    <style>
+        .float-left {
+          float: left;
+        }
+      </style>
+</head>
+    <body>
+
+        <div class="header">
+            <h3>シフト入力画面</h3>
+        </div>
+
+        <caption align="top">
+            <h1>シフト希望</h1>
+        </caption>
+
+        <table>
+            <tr>
+                <td>
+                    <table class="ShiftTable_day1" border="1">
+
+                        <div class="date">
+                            <tr>
+                                <td>日付</td>
+                                <td colspan="3"  align="center">1</td>
+                            </tr>
+                        </div>
+            
+                        <tr>
+                            <td>時間帯</td>
+            
+                            <td>朝</td>
+                            <td>昼</td>
+                            <td>夜</td>
+                            
+                        </tr>
+            
+                        <tr>
+                            <td>太白</td>
+                            
+                            <td>
+                                <select name="shift_YN"><option value="Flase"> </option><option value="True">〇</option></select>
+                            </td>
+                            <td>
+                                <select name="shift_YN"><option value="Flase"> </option><option value="True">〇</option></select>
+                            </td><td>
+                                <select name="shift_YN"><option value="Flase"> </option><option value="True">〇</option></select>
+                            </td>
+            
+                        </tr>
+
+                </td>
+        </table>
+
+        
+
+        <link rel ="stylesheet" href="shift_style.css">
+        
+        <div class="button">
+            <a href="#">作成ボタン</a>
+        </div>
+        
+
+    </body>
+</html>
